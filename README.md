@@ -1,4 +1,3 @@
-﻿**Task Manager App**
 
 A task management web application built with React, Tailwind CSS, and React Router. This app allows users to track and manage their tasks efficiently with features such as task categorization (Completed, Pending, In Progress, Deployed, etc.), dark mode support, and responsive design for all screen sizes.
 
@@ -80,25 +79,25 @@ Here are some screenshots of the app:
 
 **Home Page**
 
-![src][assets](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.001.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.001.jpeg)
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.002.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.002.jpeg)
 
 **Mode Toggle**
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.003.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.003.jpeg)
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.004.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.004.jpeg)
 
 **Task Details Page**
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.005.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.005.jpeg)
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.006.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.006.jpeg)
 
 **TASK CREATE**
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.007.jpeg)
+![Image](src/assets/Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.007.jpeg)
 
 **Contributing**
 
