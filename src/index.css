@@ -1,0 +1,248 @@
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Custom styling for dark mode */
+  .dark {
+    background-color: #1a202c; /* Dark background color */
+    color: #e2e8f0; /* Dark text color */
+  }
+}
+
+/* Additional styling for specific components */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+button:hover {
+  background-color: #2d3748;
+}
+
+body {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+
+  /* Styling for specific components */
+  .card {
+    background-color: #fff;
+  }
+  
+  .dark .card {
+    background-color: #2d3748; /* Dark background for cards in dark mode */
+  }
+
+  /* Global Styles */
+:root {
+    --transition-duration: 300ms;
+    --font-family: 'Roboto', sans-serif;
+    --primary-bg-color: #f9fafb;
+    --secondary-bg-color: #1a202c;
+    --primary-text-color: #333;
+    --secondary-text-color: #e2e8f0;
+    --primary-btn-bg: #6c63ff;
+    --hover-color: #ebebeb;
+  }
+  
+  /* Light Mode */
+  body.light-mode {
+    --bg-color: var(--primary-bg-color);
+    --text-color: var(--primary-text-color);
+    --link-hover-bg: var(--hover-color);
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    --bg-color: var(--secondary-bg-color);
+    --text-color: var(--secondary-text-color);
+    --link-hover-bg: #333;
+  }
+  
+  /* Apply background color and text color */
+  body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+  }
+  
+  /* Dark Mode */
+  html.dark {
+    background-color: #1a202c;
+    color: #e2e8f0;
+  }
+  
+  /* Navbar hover effects */
+  nav a:hover {
+    color: var(--link-hover-bg);
+    background-color: var(--link-hover-bg);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  /* Inputs & Textareas */
+  input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #d1d5db;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #5c6bc0;
+    box-shadow: 0 0 10px rgba(92, 107, 192, 0.4);
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 24px;
+    background-color: var(--primary-btn-bg);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5a53d1;
+    transform: scale(1.05);
+  }
+  
+  /* Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Font Sizes */
+  h1, h2, h3, h4 {
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4a5568;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #2d3748;
+  }
+  /* Responsive adjustments for smaller screens */
+@media (max-width: 640px) {
+    .sidebar {
+      width: 20px !important;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .sidebar {
+      width: 64px !important;
+    }
+  }
+  
+  /* Dark Mode and Light Mode Styles */
+  body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  body[data-theme="dark"] {
+    background-color: #1a202c;
+    color: #e2e8f0;
+  }
+  
+  body[data-theme="light"] {
+    background-color: #f7fafc;
+    color: #2d3748;
+  }
+  /* Apply dark mode styles globally */
+html[data-theme='dark'] {
+    background-color: #1a202c;
+    color: #e2e8f0;
+  }
+  
+  html[data-theme='light'] {
+    background-color: #ffffff;
+    color: #2d3748;
+  }
+  
+  /* Style cards, buttons, and other elements for dark mode */
+  .card {
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  html[data-theme='dark'] .card {
+    --card-bg-color: #2d3748;
+    --card-text-color: #e2e8f0;
+  }
+  
+  html[data-theme='light'] .card {
+    --card-bg-color: #ffffff;
+    --card-text-color: #2d3748;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Specific button styles */
+  button[data-theme='dark'] {
+    background-color: #4a5568;
+    color: #fff;
+  }
+  
+  button[data-theme='light'] {
+    background-color: #edf2f7;
+    color: #2d3748;
+  }
+  
