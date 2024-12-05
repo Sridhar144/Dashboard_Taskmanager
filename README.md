@@ -80,7 +80,7 @@ Here are some screenshots of the app:
 
 **Home Page**
 
-![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.001.jpeg)
+![src][assets](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.001.jpeg)
 
 ![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.002.jpeg)
 
