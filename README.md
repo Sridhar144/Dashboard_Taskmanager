@@ -1,106 +1,111 @@
-<a name="readme-top"></a>
+﻿**Task Manager App**
 
+A task management web application built with React, Tailwind CSS, and React Router. This app allows users to track and manage their tasks efficiently with features such as task categorization (Completed, Pending, In Progress, Deployed, etc.), dark mode support, and responsive design for all screen sizes.
 
-<br />
-<div align="center">
-  
-  ![bingoctfgogreenlandingpage](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996606/1_kcceab.png)
-  
-<h3 align="center">
-Task Management Website</h3>
-  <p align="center">
-    <br />
-    <a href="https://github.com/Pravin12111/Task_Management_DashBoard.git"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://alltaskss.vercel.app">Go Live</a>
-    ·
-    <a href="https://github.com/Pravin12111/Task_Management_DashBoard.git/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Pravin12111/Task_Management_DashBoard.git/issues">Request Feature</a>
-  </p>
-</div>
+**LIVE APP: [React ](https://dashboard-taskmanager-j2orit8sm-sridhar144s-projects.vercel.app/)(https://dashboard-taskmanager-j2orit8sm-sridhar144s-projects.vercel.app/)**
 
+**Table of Contents**
 
+- Features
+- Technologies Used
+- Installation
+- Usage
+- Dark Mode
+- Screenshots
+- Contributing
+- License
 
- ## All Features 🌟 
+**Features**
 
- ### 1. Redux Toolkit for Task State Management
- 
-#### All Tasks
- 
- ![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996619/2_xv3ljv.png)
- 
- - To change the status of a task to "Complete" and update its date to the date when it was completed.
- 
+- **Task Management**: Create, view, and manage tasks.
+- **Task Categorization**: View tasks in various states like "Completed," "Pending," "In Progress," "Deployed," and "Deferred."
+- **Dark Mode**: Toggle between light and dark themes for a better user experience.
+- **Responsive Design**: The app is fully responsive and works on mobile, tablet, and desktop screens.
+- **Modern UI**: A clean and modern user interface with smooth transitions and hover effects.
+- **Task Stats**: View task statistics like completion rate.
 
-### 2. Add Task
-  ### Add a new Task
+**Technologies Used**
 
-   ![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996633/3_ock8xg.png)
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for building custom designs quickly.
+- **React Router**: Declarative routing for React applications.
+- **LocalStorage**: Save dark mode preference between sessions.
+- **React Icons**: Library for using popular icons in React.
 
-- We can add or remove Tasks.
+**Installation**
 
-    ### Filter Tasks
+Follow these steps to get the application up and running locally. **Clone the repository:**
 
-   ![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711998055/6_fiiti1.png)
+git clone https://github.com/Sridhar144/Dashboard\_Taskmanager cd task-manager
 
--  Allows users to easily filter tasks by date, status, and priority, providing a streamlined and efficient task management experience.
+1\.
 
+**Install the dependencies:**
 
+npm install
 
-#### Responsive Design
+2\.
 
-![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996651/4_bmgkfh.png)
-  
+**Start the development server:**
 
-## Getting Started 🚀
+npm start
 
+3\. The app will be accessible at http://localhost:3000.
 
-### Prerequisites
-Before you begin contributing to this project, make sure you have the following set up:
+**Usage**
 
-- [Node.js](https://nodejs.org/): A JavaScript runtime.
-- [npm](https://www.npmjs.com/): The Node.js package manager.
+- **Home**: The default view where all tasks are displayed.
+- **Add New Task**: Allows you to add new tasks to the task list.
+- **Task Categories**: Tasks can be viewed based on their status (Completed, Pending, In Progress, etc.).
+- **Dark Mode Toggle**: Click on the sun/moon button to toggle between dark and light themes.
+- **Task Stats**: View overall statistics about your tasks.
 
-### Run This ⌨️
+**Screenshots**
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Pravin12111/Task_Management_DashBoard.git
-   ```
-2. **Install Dependencies:**
-   ```bash
-    npm install
-   ```
-3. **Run This Project:**
-   ```bash
-   npm run dev
-   ```
+*Example of Task Manager App's Dashboard view.*
 
-   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Dark Mode Toggle**
 
+You can toggle between light and dark modes using the button at the top-right of the screen. The app saves your preference using localStorage, so it remembers your theme choice even after a page refresh.
 
+**Dark Mode**
 
+- The app comes with a built-in dark mode feature. You can toggle it via the button located on the top-right corner of the sidebar.
+- Dark mode settings are saved in localStorage so the theme persists across sessions.
+- The dark theme includes darker backgrounds, light text, and contrasting card elements for better readability in low-light environments.
 
+**Screenshots**
 
+Here are some screenshots of the app:
 
-### Built With
+**Home Page**
 
-This section highlights the key frameworks and libraries that form the foundation of your project. Below are some notable examples:
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.001.jpeg)
 
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.002.jpeg)
 
-- **[![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript):** The programming language of 
-- **[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/):** The database for modern applications.
-- **[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/):** Cloud platform for serverless deployment and hosting.
-- **[![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)](https://prettier.io/):** Opinionated code formatter to ensure consistent code styling the web.
+**Mode Toggle**
 
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.003.jpeg)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.004.jpeg)
 
+**Task Details Page**
 
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.005.jpeg)
 
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.006.jpeg)
 
+**TASK CREATE**
 
+![](Aspose.Words.70add526-fe3c-408b-86cd-7bb11517df99.007.jpeg)
 
+**Contributing**
 
+We welcome contributions! If you find a bug, would like to improve the project, or add new features, please follow these steps:
+
+1. Fork the repository.
+1. Create a new branch (git checkout -b feature/your-feature).
+1. Make your changes and commit them (git commit -am 'Add new feature').
+1. Push your changes to the branch (git push origin feature/your-feature).
+5. Create a new Pull Request.
